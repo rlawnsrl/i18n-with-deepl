@@ -1,0 +1,19 @@
+{
+  "name": "simple-i18n-with-deepl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/run.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "npm run build && node dist/run"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "deepl-node": "^1.13.0",
+    "dotenv": "^16.4.5"
+  }
+}
